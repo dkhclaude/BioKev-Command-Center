@@ -1,0 +1,58 @@
+agent,task_id,title,status,priority,due_date,notes
+cio,100,Chief Investment Officer task 1,completed,High,2026-07-13,
+cio,101,Chief Investment Officer task 2,in_progress,Medium,2026-07-16,Editing SNGX-demo dossier for publish
+cio,102,Chief Investment Officer task 3,pending,Low,2026-07-19,
+clin_sci,103,Clinical Science task 1,completed,High,2026-07-13,
+clin_sci,104,Clinical Science task 2,in_progress,Medium,2026-07-16,Mechanism write-up for RENX-demo lead asset
+clin_sci,105,Clinical Science task 3,pending,Low,2026-07-19,
+trial_biostat,106,Clinical Trial task 1,completed,High,2026-07-13,
+trial_biostat,107,Clinical Trial task 2,in_progress,Medium,2026-07-16,Powering analysis of ZYMR-demo Ph2 readout
+trial_biostat,108,Clinical Trial task 3,pending,Low,2026-07-19,
+fda_reg,109,FDA task 1,completed,High,2026-07-13,
+fda_reg,110,FDA task 2,in_progress,Medium,2026-07-16,Verifying NOVX-demo PDUFA date
+fda_reg,111,FDA task 3,pending,Low,2026-07-19,
+fin_runway,112,"Financial, Cash-Runway task 1",completed,High,2026-07-13,
+fin_runway,113,"Financial, Cash-Runway task 2",in_progress,Medium,2026-07-16,Runway model for HELX-demo from latest 10-Q
+fin_runway,114,"Financial, Cash-Runway task 3",pending,Low,2026-07-19,
+commercial,115,Commercial task 1,completed,High,2026-07-13,
+commercial,116,Commercial task 2,in_progress,Medium,2026-07-16,Competitive map for RENX-demo indication
+commercial,117,Commercial task 3,pending,Low,2026-07-19,
+valuation,118,Valuation task 1,completed,High,2026-07-13,
+valuation,119,Valuation task 2,in_progress,Medium,2026-07-16,Scenario tree for ZYMR-demo readout
+valuation,120,Valuation task 3,pending,Low,2026-07-19,
+market_struct,121,"Market Structure, Technical task 1",completed,High,2026-07-13,
+market_struct,122,"Market Structure, Technical task 2",in_progress,Medium,2026-07-16,Pre-catalyst technical + flow scan on watchlist
+market_struct,123,"Market Structure, Technical task 3",pending,Low,2026-07-19,
+portfolio_risk,124,Portfolio task 1,completed,High,2026-07-13,
+portfolio_risk,125,Portfolio task 2,in_progress,Medium,2026-07-16,Sizing rules for binary-event names (paper)
+portfolio_risk,126,Portfolio task 3,pending,Low,2026-07-19,
+tutor,127,PharmD-to-Biotech-Investor Tutor task 1,completed,High,2026-07-13,
+tutor,128,PharmD-to-Biotech-Investor Tutor task 2,in_progress,Medium,2026-07-16,Week 3 curriculum + quiz on trial endpoints
+tutor,129,PharmD-to-Biotech-Investor Tutor task 3,pending,Low,2026-07-19,
+brand,130,Public Research task 1,completed,High,2026-07-13,
+brand,131,Public Research task 2,in_progress,Medium,2026-07-16,Positioning + weekly content thesis
+brand,132,Public Research task 3,pending,Low,2026-07-19,
+librarian,133,Knowledge Librarian task 1,completed,High,2026-07-13,
+librarian,134,Knowledge Librarian task 2,in_progress,Medium,2026-07-16,Citation audit across open dossiers
+librarian,135,Knowledge Librarian task 3,pending,Low,2026-07-19,
+strategist,136,Short-Form Content Strategist task 1,completed,High,2026-07-13,
+strategist,137,Short-Form Content Strategist task 2,in_progress,Medium,2026-07-16,Ranking week-2 short-form ideas
+strategist,138,Short-Form Content Strategist task 3,pending,Low,2026-07-19,
+scriptwriter,139,Biotech Scriptwriter task 1,completed,High,2026-07-13,
+scriptwriter,140,Biotech Scriptwriter task 2,in_progress,Medium,2026-07-16,Drafting S07 Catalyst-in-60 for NOVX-demo
+scriptwriter,141,Biotech Scriptwriter task 3,pending,Low,2026-07-19,
+avatar_cd,142,Avatar Creative Director task 1,completed,High,2026-07-13,
+avatar_cd,143,Avatar Creative Director task 2,in_progress,Medium,2026-07-16,Style bible v1 + prompt library shipped
+avatar_cd,144,Avatar Creative Director task 3,pending,Low,2026-07-19,
+storyboard,145,Animation Storyboard Agent task 1,completed,High,2026-07-13,
+storyboard,146,Animation Storyboard Agent task 2,in_progress,Medium,2026-07-16,Storyboarding approved evergreen scripts
+storyboard,147,Animation Storyboard Agent task 3,pending,Low,2026-07-19,
+compliance,148,Compliance task 1,completed,High,2026-07-13,
+compliance,149,Compliance task 2,in_progress,Medium,2026-07-16,Reviewing S03 & S05 evergreen scripts
+compliance,150,Compliance task 3,pending,Low,2026-07-19,
+caption,151,Caption task 1,completed,High,2026-07-13,
+caption,152,Caption task 2,in_progress,Medium,2026-07-16,CapCut template + platform versions
+caption,153,Caption task 3,pending,Low,2026-07-19,
+analytics,154,Analytics task 1,completed,High,2026-07-13,
+analytics,155,Analytics task 2,in_progress,Medium,2026-07-16,Baseline metrics setup
+analytics,156,Analytics task 3,pending,Low,2026-07-19,

@@ -1,0 +1,6 @@
+ticker,company,research_type,assigned_agents,stage,due_date,catalyst_date,priority,risk_level,source_status,output_file
+CELC,Celcuity Inc.,Catalyst Deep-Dive + Trial Teardown,trial_biostat;fda_reg;clin_sci,Researching,2026-07-16,2026-07-17,High,Binary,Sourced,outputs/research/celc_gedatolisib.md
+MNKD,MannKind Corp.,Catalyst Deep-Dive,fda_reg;fin_runway,Assigned,2026-07-24,2026-07-26,Medium,High,Partial,outputs/research/mnkd_furoscix.md
+VERA,Vera Therapeutics,Post-Mortem (approval),cio;clin_sci,Post-Mortem Needed,2026-07-14,2026-07-07,High,Binary,Sourced,outputs/research/vera_trutakna_postmortem.md
+CORT,Corcept Therapeutics,Company Dossier (commercial),commercial;valuation,Drafting,2026-07-29,2026-07-30,Medium,Medium,Sourced,outputs/research/cort_dossier.md
+CELC,Celcuity Inc.,2nd-indication watch (PIK3CA mutant),clin_sci,Idea,2026-08-01,2026-11-01,Low,High,Needs sourcing,outputs/research/celc_pik3ca_mutant.md

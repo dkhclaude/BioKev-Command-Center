@@ -1,0 +1,5 @@
+streamlit>=1.33
+pandas>=2.0
+plotly>=5.20
+# Optional (only if you extend the app to query data via SQL):
+# duckdb>=0.10

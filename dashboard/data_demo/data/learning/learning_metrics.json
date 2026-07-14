@@ -1,0 +1,33 @@
+{
+  "_meta": {
+    "generated": "2026-07-13",
+    "note": "Demo learning metrics."
+  },
+  "flashcards_due": 24,
+  "dossiers_completed": 3,
+  "catalyst_postmortems_completed": 1,
+  "public_posts_published": 0,
+  "research_streak_days": 12,
+  "credibility_milestones": [
+    {
+      "name": "First full company dossier",
+      "done": true
+    },
+    {
+      "name": "First trial teardown video scripted",
+      "done": true
+    },
+    {
+      "name": "First public post published",
+      "done": false
+    },
+    {
+      "name": "10 catalysts tracked with sources",
+      "done": false
+    },
+    {
+      "name": "First honest post-mortem published",
+      "done": false
+    }
+  ]
+}

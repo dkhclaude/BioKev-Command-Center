@@ -1,0 +1,5 @@
+ticker,company,sector,market_cap,lead_program,next_catalyst,cash_runway,dilution_risk,clinical_risk,regulatory_risk,technical_setup,thesis_status,assigned_analyst,last_updated
+CELC,Celcuity Inc.,Oncology (breast),$5.2B (mid),gedatolisib (PI3K/mTOR) HR+/HER2- ABC,PDUFA 2026-07-17,Needs Verification — pre-revenue; check latest 10-Q/shelf,High,Medium,Binary,Elevated into catalyst,Research further,trial_biostat,2026-07-13
+MNKD,MannKind Corp.,Endocrine/Cardio-Renal,$1.3B (small),FUROSCIX/ReadyFlow (SCP-111) + Afrezza + Tyvaso DPI royalties,PDUFA 2026-07-26,Commercial revenue + royalties (verify latest 10-Q),Low,Medium,High,Base building,Monitor,fin_runway,2026-07-13
+VERA,Vera Therapeutics,Nephrology/Immunology,$3.0B (mid),TRUTAKNA (atacicept) — APPROVED in IgAN,Q2 earnings 2026-08-04 / launch,Post-approval; verify cash post-raise,Moderate,Medium (post-approval),Low (approved),Post-approval consolidation,Existing-position review,clin_sci,2026-07-13
+CORT,Corcept Therapeutics,Endocrinology/Oncology,$9.9B (mid-large),Korlym + Lifyorli (relacorilant),Q2 earnings 2026-07-30,Profitable (Korlym revenue),Low,Low,Low,Uptrend,Existing-position review,commercial,2026-07-13

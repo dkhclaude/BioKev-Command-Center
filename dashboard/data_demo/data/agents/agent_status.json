@@ -1,0 +1,453 @@
+{
+  "_meta": {
+    "generated": "2026-07-13",
+    "note": "Demo data. Companies are fictional placeholders. Agents update their own block after work.",
+    "source": "seed_data.py"
+  },
+  "agents": [
+    {
+      "id": "cio",
+      "name": "Chief Investment Officer & Research Editor",
+      "division": "Research",
+      "role": "Chief Investment Officer & Research Editor",
+      "status": "Reviewing",
+      "mission": "Chief Investment Officer & Research Editor for the BioKev Biotech Intelligence Desk.",
+      "current_task": "Editing SNGX-demo dossier for publish",
+      "last_updated": "2026-07-13T09:40",
+      "files_created": [
+        "outputs/agents/cio/notes.md",
+        "outputs/agents/cio/latest_analysis.md"
+      ],
+      "files_editing": [
+        "outputs/agents/cio/draft.md"
+      ],
+      "open_questions": [
+        "Reconcile clinical vs financial risk ratings"
+      ],
+      "blockers": [],
+      "next_action": "Reconcile clinical vs financial risk ratings",
+      "confidence": 0.72,
+      "output_folder": "outputs/agents/cio/"
+    },
+    {
+      "id": "clin_sci",
+      "name": "Clinical Science & Mechanism Analyst",
+      "division": "Research",
+      "role": "Clinical Science & Mechanism Analyst",
+      "status": "Active",
+      "mission": "Clinical Science & Mechanism Analyst for the BioKev Biotech Intelligence Desk.",
+      "current_task": "Mechanism write-up for RENX-demo lead asset",
+      "last_updated": "2026-07-13T09:43",
+      "files_created": [
+        "outputs/agents/clin_sci/notes.md",
+        "outputs/agents/clin_sci/latest_analysis.md"
+      ],
+      "files_editing": [
+        "outputs/agents/clin_sci/draft.md"
+      ],
+      "open_questions": [
+        "Confirm MoA class vs competitor"
+      ],
+      "blockers": [],
+      "next_action": "Confirm MoA class vs competitor",
+      "confidence": 0.8,
+      "output_folder": "outputs/agents/clin_sci/"
+    },
+    {
+      "id": "trial_biostat",
+      "name": "Clinical Trial & Biostatistics Analyst",
+      "division": "Research",
+      "role": "Clinical Trial & Biostatistics Analyst",
+      "status": "Active",
+      "mission": "Clinical Trial & Biostatistics Analyst for the BioKev Biotech Intelligence Desk.",
+      "current_task": "Powering analysis of ZYMR-demo Ph2 readout",
+      "last_updated": "2026-07-13T09:46",
+      "files_created": [
+        "outputs/agents/trial_biostat/notes.md",
+        "outputs/agents/trial_biostat/latest_analysis.md"
+      ],
+      "files_editing": [
+        "outputs/agents/trial_biostat/draft.md"
+      ],
+      "open_questions": [
+        "Is primary endpoint adequately powered?"
+      ],
+      "blockers": [],
+      "next_action": "Is primary endpoint adequately powered?",
+      "confidence": 0.65,
+      "output_folder": "outputs/agents/trial_biostat/"
+    },
+    {
+      "id": "fda_reg",
+      "name": "FDA & Regulatory Catalyst Analyst",
+      "division": "Research",
+      "role": "FDA & Regulatory Catalyst Analyst",
+      "status": "Blocked",
+      "mission": "FDA & Regulatory Catalyst Analyst for the BioKev Biotech Intelligence Desk.",
+      "current_task": "Verifying NOVX-demo PDUFA date",
+      "last_updated": "2026-07-13T09:49",
+      "files_created": [
+        "outputs/agents/fda_reg/notes.md",
+        "outputs/agents/fda_reg/latest_analysis.md"
+      ],
+      "files_editing": [],
+      "open_questions": [
+        "Awaiting primary-source confirmation of date"
+      ],
+      "blockers": [
+        "date"
+      ],
+      "next_action": "Awaiting primary-source confirmation of date",
+      "confidence": 0.4,
+      "output_folder": "outputs/agents/fda_reg/"
+    },
+    {
+      "id": "fin_runway",
+      "name": "Financial, Cash-Runway & Dilution Analyst",
+      "division": "Research",
+      "role": "Financial, Cash-Runway & Dilution Analyst",
+      "status": "Active",
+      "mission": "Financial, Cash-Runway & Dilution Analyst for the BioKev Biotech Intelligence Desk.",
+      "current_task": "Runway model for HELX-demo from latest 10-Q",
+      "last_updated": "2026-07-13T09:52",
+      "files_created": [
+        "outputs/agents/fin_runway/notes.md",
+        "outputs/agents/fin_runway/latest_analysis.md"
+      ],
+      "files_editing": [
+        "outputs/agents/fin_runway/draft.md"
+      ],
+      "open_questions": [
+        "Confirm ATM capacity remaining"
+      ],
+      "blockers": [],
+      "next_action": "Confirm ATM capacity remaining",
+      "confidence": 0.78,
+      "output_folder": "outputs/agents/fin_runway/"
+    },
+    {
+      "id": "commercial",
+      "name": "Commercial & Competitive Landscape Analyst",
+      "division": "Research",
+      "role": "Commercial & Competitive Landscape Analyst",
+      "status": "Waiting",
+      "mission": "Commercial & Competitive Landscape Analyst for the BioKev Biotech Intelligence Desk.",
+      "current_task": "Competitive map for RENX-demo indication",
+      "last_updated": "2026-07-13T09:55",
+      "files_created": [
+        "outputs/agents/commercial/notes.md",
+        "outputs/agents/commercial/latest_analysis.md"
+      ],
+      "files_editing": [],
+      "open_questions": [
+        "Need clin_sci mechanism note first"
+      ],
+      "blockers": [],
+      "next_action": "Need clin_sci mechanism note first",
+      "confidence": 0.6,
+      "output_folder": "outputs/agents/commercial/"
+    },
+    {
+      "id": "valuation",
+      "name": "Valuation & Scenario Analyst",
+      "division": "Research",
+      "role": "Valuation & Scenario Analyst",
+      "status": "Waiting",
+      "mission": "Valuation & Scenario Analyst for the BioKev Biotech Intelligence Desk.",
+      "current_task": "Scenario tree for ZYMR-demo readout",
+      "last_updated": "2026-07-13T09:58",
+      "files_created": [
+        "outputs/agents/valuation/notes.md",
+        "outputs/agents/valuation/latest_analysis.md"
+      ],
+      "files_editing": [],
+      "open_questions": [
+        "Blocked on biostat power read"
+      ],
+      "blockers": [],
+      "next_action": "Blocked on biostat power read",
+      "confidence": 0.55,
+      "output_folder": "outputs/agents/valuation/"
+    },
+    {
+      "id": "market_struct",
+      "name": "Market Structure, Technical & Options Flow Analyst",
+      "division": "Research",
+      "role": "Market Structure, Technical & Options Flow Analyst",
+      "status": "Active",
+      "mission": "Market Structure, Technical & Options Flow Analyst for the BioKev Biotech Intelligence Desk.",
+      "current_task": "Pre-catalyst technical + flow scan on watchlist",
+      "last_updated": "2026-07-13T10:01",
+      "files_created": [
+        "outputs/agents/market_struct/notes.md",
+        "outputs/agents/market_struct/latest_analysis.md"
+      ],
+      "files_editing": [
+        "outputs/agents/market_struct/draft.md"
+      ],
+      "open_questions": [
+        "Any unusual flow into NOVX-demo?"
+      ],
+      "blockers": [],
+      "next_action": "Any unusual flow into NOVX-demo?",
+      "confidence": 0.68,
+      "output_folder": "outputs/agents/market_struct/"
+    },
+    {
+      "id": "portfolio_risk",
+      "name": "Portfolio & Risk Manager",
+      "division": "Research",
+      "role": "Portfolio & Risk Manager",
+      "status": "Reviewing",
+      "mission": "Portfolio & Risk Manager for the BioKev Biotech Intelligence Desk.",
+      "current_task": "Sizing rules for binary-event names (paper)",
+      "last_updated": "2026-07-13T10:04",
+      "files_created": [
+        "outputs/agents/portfolio_risk/notes.md",
+        "outputs/agents/portfolio_risk/latest_analysis.md"
+      ],
+      "files_editing": [
+        "outputs/agents/portfolio_risk/draft.md"
+      ],
+      "open_questions": [
+        "Confirm max binary exposure cap"
+      ],
+      "blockers": [],
+      "next_action": "Confirm max binary exposure cap",
+      "confidence": 0.75,
+      "output_folder": "outputs/agents/portfolio_risk/"
+    },
+    {
+      "id": "tutor",
+      "name": "PharmD-to-Biotech-Investor Tutor",
+      "division": "Research",
+      "role": "PharmD-to-Biotech-Investor Tutor",
+      "status": "Active",
+      "mission": "PharmD-to-Biotech-Investor Tutor for the BioKev Biotech Intelligence Desk.",
+      "current_task": "Week 3 curriculum + quiz on trial endpoints",
+      "last_updated": "2026-07-13T10:07",
+      "files_created": [
+        "outputs/agents/tutor/notes.md",
+        "outputs/agents/tutor/latest_analysis.md"
+      ],
+      "files_editing": [
+        "outputs/agents/tutor/draft.md"
+      ],
+      "open_questions": [
+        "Which weak area to drill next?"
+      ],
+      "blockers": [],
+      "next_action": "Which weak area to drill next?",
+      "confidence": 0.82,
+      "output_folder": "outputs/agents/tutor/"
+    },
+    {
+      "id": "brand",
+      "name": "Public Research & Brand Strategist",
+      "division": "Research",
+      "role": "Public Research & Brand Strategist",
+      "status": "Active",
+      "mission": "Public Research & Brand Strategist for the BioKev Biotech Intelligence Desk.",
+      "current_task": "Positioning + weekly content thesis",
+      "last_updated": "2026-07-13T10:10",
+      "files_created": [
+        "outputs/agents/brand/notes.md",
+        "outputs/agents/brand/latest_analysis.md"
+      ],
+      "files_editing": [
+        "outputs/agents/brand/draft.md"
+      ],
+      "open_questions": [
+        "Which 2 stories lead this week?"
+      ],
+      "blockers": [],
+      "next_action": "Which 2 stories lead this week?",
+      "confidence": 0.77,
+      "output_folder": "outputs/agents/brand/"
+    },
+    {
+      "id": "librarian",
+      "name": "Knowledge Librarian & Quality Auditor",
+      "division": "Research",
+      "role": "Knowledge Librarian & Quality Auditor",
+      "status": "Reviewing",
+      "mission": "Knowledge Librarian & Quality Auditor for the BioKev Biotech Intelligence Desk.",
+      "current_task": "Citation audit across open dossiers",
+      "last_updated": "2026-07-13T10:13",
+      "files_created": [
+        "outputs/agents/librarian/notes.md",
+        "outputs/agents/librarian/latest_analysis.md"
+      ],
+      "files_editing": [
+        "outputs/agents/librarian/draft.md"
+      ],
+      "open_questions": [
+        "3 claims missing primary sources"
+      ],
+      "blockers": [],
+      "next_action": "3 claims missing primary sources",
+      "confidence": 0.7,
+      "output_folder": "outputs/agents/librarian/"
+    },
+    {
+      "id": "strategist",
+      "name": "Short-Form Content Strategist",
+      "division": "Content",
+      "role": "Short-Form Content Strategist",
+      "status": "Active",
+      "mission": "Short-Form Content Strategist for the BioKev Biotech Intelligence Desk.",
+      "current_task": "Ranking week-2 short-form ideas",
+      "last_updated": "2026-07-13T10:16",
+      "files_created": [
+        "outputs/agents/strategist/notes.md",
+        "outputs/agents/strategist/handoff.md"
+      ],
+      "files_editing": [
+        "outputs/agents/strategist/draft.md"
+      ],
+      "open_questions": [
+        "Confirm Catalyst-in-60 slot company"
+      ],
+      "blockers": [],
+      "next_action": "Confirm Catalyst-in-60 slot company",
+      "confidence": 0.74,
+      "output_folder": "outputs/agents/strategist/"
+    },
+    {
+      "id": "scriptwriter",
+      "name": "Biotech Scriptwriter",
+      "division": "Content",
+      "role": "Biotech Scriptwriter",
+      "status": "Active",
+      "mission": "Biotech Scriptwriter for the BioKev Biotech Intelligence Desk.",
+      "current_task": "Drafting S07 Catalyst-in-60 for NOVX-demo",
+      "last_updated": "2026-07-13T10:19",
+      "files_created": [
+        "outputs/agents/scriptwriter/notes.md",
+        "outputs/agents/scriptwriter/handoff.md"
+      ],
+      "files_editing": [
+        "outputs/agents/scriptwriter/draft.md"
+      ],
+      "open_questions": [
+        "Need verified PDUFA date from fda_reg"
+      ],
+      "blockers": [],
+      "next_action": "Need verified PDUFA date from fda_reg",
+      "confidence": 0.66,
+      "output_folder": "outputs/agents/scriptwriter/"
+    },
+    {
+      "id": "avatar_cd",
+      "name": "Avatar Creative Director",
+      "division": "Content",
+      "role": "Avatar Creative Director",
+      "status": "Complete",
+      "mission": "Avatar Creative Director for the BioKev Biotech Intelligence Desk.",
+      "current_task": "Style bible v1 + prompt library shipped",
+      "last_updated": "2026-07-13T10:22",
+      "files_created": [
+        "outputs/agents/avatar_cd/notes.md",
+        "outputs/agents/avatar_cd/handoff.md"
+      ],
+      "files_editing": [],
+      "open_questions": [
+        "None \u2014 awaiting new pose requests"
+      ],
+      "blockers": [],
+      "next_action": "None \u2014 awaiting new pose requests",
+      "confidence": 0.9,
+      "output_folder": "outputs/agents/avatar_cd/"
+    },
+    {
+      "id": "storyboard",
+      "name": "Animation Storyboard Agent",
+      "division": "Content",
+      "role": "Animation Storyboard Agent",
+      "status": "Waiting",
+      "mission": "Animation Storyboard Agent for the BioKev Biotech Intelligence Desk.",
+      "current_task": "Storyboarding approved evergreen scripts",
+      "last_updated": "2026-07-13T10:25",
+      "files_created": [
+        "outputs/agents/storyboard/notes.md",
+        "outputs/agents/storyboard/handoff.md"
+      ],
+      "files_editing": [],
+      "open_questions": [
+        "Waiting on compliance PASS for S07"
+      ],
+      "blockers": [],
+      "next_action": "Waiting on compliance PASS for S07",
+      "confidence": 0.63,
+      "output_folder": "outputs/agents/storyboard/"
+    },
+    {
+      "id": "compliance",
+      "name": "Compliance & Credibility Editor",
+      "division": "Content",
+      "role": "Compliance & Credibility Editor",
+      "status": "Reviewing",
+      "mission": "Compliance & Credibility Editor for the BioKev Biotech Intelligence Desk.",
+      "current_task": "Reviewing S03 & S05 evergreen scripts",
+      "last_updated": "2026-07-13T10:28",
+      "files_created": [
+        "outputs/agents/compliance/notes.md",
+        "outputs/agents/compliance/handoff.md"
+      ],
+      "files_editing": [
+        "outputs/agents/compliance/draft.md"
+      ],
+      "open_questions": [
+        "Confirm position disclosure policy w/ Kevin"
+      ],
+      "blockers": [],
+      "next_action": "Confirm position disclosure policy w/ Kevin",
+      "confidence": 0.71,
+      "output_folder": "outputs/agents/compliance/"
+    },
+    {
+      "id": "caption",
+      "name": "Caption & Editing Agent",
+      "division": "Content",
+      "role": "Caption & Editing Agent",
+      "status": "Waiting",
+      "mission": "Caption & Editing Agent for the BioKev Biotech Intelligence Desk.",
+      "current_task": "CapCut template + platform versions",
+      "last_updated": "2026-07-13T10:31",
+      "files_created": [
+        "outputs/agents/caption/notes.md",
+        "outputs/agents/caption/handoff.md"
+      ],
+      "files_editing": [],
+      "open_questions": [
+        "Awaiting animated cuts"
+      ],
+      "blockers": [],
+      "next_action": "Awaiting animated cuts",
+      "confidence": 0.58,
+      "output_folder": "outputs/agents/caption/"
+    },
+    {
+      "id": "analytics",
+      "name": "Analytics & Iteration Agent",
+      "division": "Content",
+      "role": "Analytics & Iteration Agent",
+      "status": "Waiting",
+      "mission": "Analytics & Iteration Agent for the BioKev Biotech Intelligence Desk.",
+      "current_task": "Baseline metrics setup",
+      "last_updated": "2026-07-13T10:34",
+      "files_created": [
+        "outputs/agents/analytics/notes.md",
+        "outputs/agents/analytics/handoff.md"
+      ],
+      "files_editing": [],
+      "open_questions": [
+        "No posts live yet \u2014 awaiting first posts"
+      ],
+      "blockers": [],
+      "next_action": "No posts live yet \u2014 awaiting first posts",
+      "confidence": 0.5,
+      "output_folder": "outputs/agents/analytics/"
+    }
+  ]
+}

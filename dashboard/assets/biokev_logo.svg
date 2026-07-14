@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 120" width="420" height="120">
+  <rect width="420" height="120" rx="18" fill="#111111"/>
+  <rect x="18" y="70" width="150" height="14" rx="6" fill="#FFD12A"/>
+  <text x="20" y="66" font-family="Arial Black, sans-serif" font-size="52" fill="#FF4DB2" letter-spacing="1">BIO<tspan fill="#F4F4F4">KEV</tspan></text>
+  <text x="22" y="104" font-family="Arial, sans-serif" font-size="15" fill="#F4F4F4" letter-spacing=".5">BIOTECH COMMAND CENTER</text>
+  <g transform="translate(330,20)">
+    <rect x="0" y="0" width="70" height="80" rx="14" fill="#2B2B2B" stroke="#FF4DB2" stroke-width="3"/>
+    <circle cx="35" cy="30" r="17" fill="#FFD12A"/>
+    <rect x="20" y="47" width="30" height="20" rx="8" fill="#F4F4F4"/>
+    <rect x="16" y="22" width="38" height="7" rx="3" fill="#111"/>
+    <circle cx="27" cy="30" r="4" fill="#111"/><circle cx="43" cy="30" r="4" fill="#111"/>
+  </g>
+</svg>

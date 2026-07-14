@@ -1,0 +1,55 @@
+{
+  "_meta": {
+    "generated": "2026-07-13"
+  },
+  "alerts": [
+    {
+      "id": "AL-01",
+      "type": "FDA date",
+      "severity": "High",
+      "message": "NOVX-demo PDUFA in 9 days is still 'Needs Verification' \u2014 confirm source.",
+      "related": "NOVX",
+      "created": "2026-07-13"
+    },
+    {
+      "id": "AL-02",
+      "type": "Missing citation",
+      "severity": "Medium",
+      "message": "3 claims in SNGX-demo dossier lack primary sources (librarian audit).",
+      "related": "SNGX",
+      "created": "2026-07-13"
+    },
+    {
+      "id": "AL-03",
+      "type": "Content deadline",
+      "severity": "Medium",
+      "message": "BK-005 endpoints video scheduled in 2 days; captions still in progress.",
+      "related": "BK-005",
+      "created": "2026-07-13"
+    },
+    {
+      "id": "AL-04",
+      "type": "Stale data",
+      "severity": "Low",
+      "message": "HELX-demo runway note based on filing >90 days old \u2014 refresh after 10-Q.",
+      "related": "HELX",
+      "created": "2026-07-13"
+    },
+    {
+      "id": "AL-05",
+      "type": "Incomplete report",
+      "severity": "High",
+      "message": "ZYMR-demo data preview blocked in Red-Team Review (biostat power unresolved).",
+      "related": "ZYMR",
+      "created": "2026-07-13"
+    },
+    {
+      "id": "AL-06",
+      "type": "Blocker",
+      "severity": "High",
+      "message": "Scriptwriter blocked on S07: awaiting verified NOVX-demo PDUFA date.",
+      "related": "BK-007",
+      "created": "2026-07-13"
+    }
+  ]
+}
