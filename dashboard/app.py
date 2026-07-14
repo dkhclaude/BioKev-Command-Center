@@ -115,8 +115,8 @@ def header(title_html, subtitle=None):
     if subtitle:
         st.markdown(f'<p class="small">{subtitle}</p>', unsafe_allow_html=True)
 
-DEMO_NOTE = ('<span class="chip demo">DEMO DATA</span> Companies are fictional placeholders. '
-             'Replace with verified data via <code>dashboard/protocols/</code>.')
+DEMO_NOTE = ('<span class="chip fact">LIVE</span> Watchlist, catalysts &amp; research pipeline are verified from primary '
+             'sources (CELC, MNKD, VERA, CORT). Content, learning &amp; paper-portfolio tabs still show sample data.')
 
 # --------------------------------------------------------------------------- #
 # Sidebar navigation
