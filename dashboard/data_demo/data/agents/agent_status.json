@@ -1,7 +1,7 @@
 {
   "_meta": {
     "generated": "2026-07-13",
-    "note": "Demo data. Companies are fictional placeholders. Agents update their own block after work.",
+    "note": "Research & content data references verified tickers (CELC, MNKD, VERA, CORT). Each agent updates its own block after work.",
     "source": "seed_data.py"
   },
   "agents": [
@@ -12,7 +12,7 @@
       "role": "Chief Investment Officer & Research Editor",
       "status": "Reviewing",
       "mission": "Chief Investment Officer & Research Editor for the BioKev Biotech Intelligence Desk.",
-      "current_task": "Editing SNGX-demo dossier for publish",
+      "current_task": "Finalizing VERA post-mortem + CELC pre-PDUFA review",
       "last_updated": "2026-07-13T09:40",
       "files_created": [
         "outputs/agents/cio/notes.md",
@@ -36,7 +36,7 @@
       "role": "Clinical Science & Mechanism Analyst",
       "status": "Active",
       "mission": "Clinical Science & Mechanism Analyst for the BioKev Biotech Intelligence Desk.",
-      "current_task": "Mechanism write-up for RENX-demo lead asset",
+      "current_task": "Mechanism write-up for CELC gedatolisib (PI3K/mTOR)",
       "last_updated": "2026-07-13T09:43",
       "files_created": [
         "outputs/agents/clin_sci/notes.md",
@@ -60,7 +60,7 @@
       "role": "Clinical Trial & Biostatistics Analyst",
       "status": "Active",
       "mission": "Clinical Trial & Biostatistics Analyst for the BioKev Biotech Intelligence Desk.",
-      "current_task": "Powering analysis of ZYMR-demo Ph2 readout",
+      "current_task": "Reviewing CELC VIKTORIA-1 endpoint before 07-17 PDUFA",
       "last_updated": "2026-07-13T09:46",
       "files_created": [
         "outputs/agents/trial_biostat/notes.md",
@@ -84,7 +84,7 @@
       "role": "FDA & Regulatory Catalyst Analyst",
       "status": "Blocked",
       "mission": "FDA & Regulatory Catalyst Analyst for the BioKev Biotech Intelligence Desk.",
-      "current_task": "Verifying NOVX-demo PDUFA date",
+      "current_task": "Verifying MNKD FUROSCIX PDUFA (2026-07-26)",
       "last_updated": "2026-07-13T09:49",
       "files_created": [
         "outputs/agents/fda_reg/notes.md",
@@ -95,7 +95,7 @@
         "Awaiting primary-source confirmation of date"
       ],
       "blockers": [
-        "date"
+        "MNKD date is aggregator-sourced; need MannKind PR/SEC"
       ],
       "next_action": "Awaiting primary-source confirmation of date",
       "confidence": 0.4,
@@ -108,7 +108,7 @@
       "role": "Financial, Cash-Runway & Dilution Analyst",
       "status": "Active",
       "mission": "Financial, Cash-Runway & Dilution Analyst for the BioKev Biotech Intelligence Desk.",
-      "current_task": "Runway model for HELX-demo from latest 10-Q",
+      "current_task": "Cash-runway model for CELC from latest 10-Q",
       "last_updated": "2026-07-13T09:52",
       "files_created": [
         "outputs/agents/fin_runway/notes.md",
@@ -132,7 +132,7 @@
       "role": "Commercial & Competitive Landscape Analyst",
       "status": "Waiting",
       "mission": "Commercial & Competitive Landscape Analyst for the BioKev Biotech Intelligence Desk.",
-      "current_task": "Competitive map for RENX-demo indication",
+      "current_task": "Competitive map for CELC in HR+/HER2- breast cancer",
       "last_updated": "2026-07-13T09:55",
       "files_created": [
         "outputs/agents/commercial/notes.md",
@@ -154,7 +154,7 @@
       "role": "Valuation & Scenario Analyst",
       "status": "Waiting",
       "mission": "Valuation & Scenario Analyst for the BioKev Biotech Intelligence Desk.",
-      "current_task": "Scenario tree for ZYMR-demo readout",
+      "current_task": "Scenario tree for CELC PDUFA outcomes",
       "last_updated": "2026-07-13T09:58",
       "files_created": [
         "outputs/agents/valuation/notes.md",
@@ -186,7 +186,7 @@
         "outputs/agents/market_struct/draft.md"
       ],
       "open_questions": [
-        "Any unusual flow into NOVX-demo?"
+        "Any unusual flow into CELC pre-PDUFA?"
       ],
       "blockers": [],
       "next_action": "Any unusual flow into NOVX-demo?",
@@ -320,7 +320,7 @@
       "role": "Biotech Scriptwriter",
       "status": "Active",
       "mission": "Biotech Scriptwriter for the BioKev Biotech Intelligence Desk.",
-      "current_task": "Drafting S07 Catalyst-in-60 for NOVX-demo",
+      "current_task": "Drafting S07 Catalyst-in-60 for CELC (07-17 PDUFA)",
       "last_updated": "2026-07-13T10:19",
       "files_created": [
         "outputs/agents/scriptwriter/notes.md",

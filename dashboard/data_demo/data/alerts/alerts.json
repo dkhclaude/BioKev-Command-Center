@@ -1,54 +1,55 @@
 {
   "_meta": {
-    "generated": "2026-07-13"
+    "generated": "2026-07-13",
+    "note": "Live alerts tied to verified catalysts (CELC, MNKD, VERA, CORT)."
   },
   "alerts": [
     {
       "id": "AL-01",
       "type": "FDA date",
       "severity": "High",
-      "message": "NOVX-demo PDUFA in 9 days is still 'Needs Verification' \u2014 confirm source.",
-      "related": "NOVX",
+      "message": "CELC PDUFA in 4 days (2026-07-17) — binary breast-cancer decision on gedatolisib. Pre-event explainer + trial teardown must ship first.",
+      "related": "CELC",
       "created": "2026-07-13"
     },
     {
       "id": "AL-02",
-      "type": "Missing citation",
-      "severity": "Medium",
-      "message": "3 claims in SNGX-demo dossier lack primary sources (librarian audit).",
-      "related": "SNGX",
+      "type": "Content deadline",
+      "severity": "High",
+      "message": "BK-101 CELC pre-PDUFA explainer scheduled 2026-07-15; BK-102 teardown in compliance review — captions still pending.",
+      "related": "BK-101",
       "created": "2026-07-13"
     },
     {
       "id": "AL-03",
-      "type": "Content deadline",
+      "type": "Needs source verification",
       "severity": "Medium",
-      "message": "BK-005 endpoints video scheduled in 2 days; captions still in progress.",
-      "related": "BK-005",
+      "message": "MNKD PDUFA 2026-07-26 is 'Likely' (aggregator-sourced). Verify against MannKind press release / SEC 8-K before publishing BK-105.",
+      "related": "MNKD",
       "created": "2026-07-13"
     },
     {
       "id": "AL-04",
-      "type": "Stale data",
-      "severity": "Low",
-      "message": "HELX-demo runway note based on filing >90 days old \u2014 refresh after 10-Q.",
-      "related": "HELX",
+      "type": "Post-mortem due",
+      "severity": "High",
+      "message": "VERA TRUTAKNA approved 2026-07-07 — post-mortem (BK-106) due; keep the accelerated-approval caveat (long-term eGFR benefit not yet established).",
+      "related": "VERA",
       "created": "2026-07-13"
     },
     {
       "id": "AL-05",
-      "type": "Incomplete report",
-      "severity": "High",
-      "message": "ZYMR-demo data preview blocked in Red-Team Review (biostat power unresolved).",
-      "related": "ZYMR",
+      "type": "Needs source verification",
+      "severity": "Medium",
+      "message": "CELC 2nd-indication (PIK3CA-mutant) sNDA timing unconfirmed — flagged Estimated in the catalyst calendar; do not schedule dated content yet.",
+      "related": "CELC",
       "created": "2026-07-13"
     },
     {
       "id": "AL-06",
-      "type": "Blocker",
-      "severity": "High",
-      "message": "Scriptwriter blocked on S07: awaiting verified NOVX-demo PDUFA date.",
-      "related": "BK-007",
+      "type": "Earnings",
+      "severity": "Low",
+      "message": "CORT Q2 earnings 2026-07-30 — watch Lifyorli launch commentary; refresh the CORT dossier before BK-107.",
+      "related": "CORT",
       "created": "2026-07-13"
     }
   ]

@@ -1,4 +1,5 @@
 ticker,company,entry_date,shares,entry_price,current_price,unrealized_pct,thesis_status,classification,last_updated,note
-RENX,Renexa (demo),2026-06-03,100,18.2,22.15,21.7,Intact,Paper-trade candidate,2026-07-13,PAPER / education only — not a real trade
-HELX,Helixon (demo),2026-05-04,50,61.0,58.4,-4.3,Intact,Existing-position review,2026-07-13,PAPER / education only — not a real trade
-ATLB,Atlasbio (demo),2026-07-03,200,4.05,3.6,-11.1,Weakening,Monitor,2026-07-13,PAPER / education only — not a real trade
+CELC,Celcuity Inc.,,0,,,,Research further,Paper-trade candidate,2026-07-13,Candidate only — no position; binary PDUFA 2026-07-17
+MNKD,MannKind Corp.,,0,,,,Monitor,Paper-trade candidate,2026-07-13,Candidate only — no position; PDUFA 2026-07-26 (verify)
+VERA,Vera Therapeutics,,0,,,,Existing-position review,Monitor,2026-07-13,Candidate only — post-approval watch
+CORT,Corcept Therapeutics,,0,,,,Existing-position review,Monitor,2026-07-13,Candidate only — profitable; earnings 2026-07-30

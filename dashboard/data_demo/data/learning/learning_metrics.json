@@ -1,28 +1,28 @@
 {
   "_meta": {
     "generated": "2026-07-13",
-    "note": "Demo learning metrics."
+    "note": "Kevin's self-tracked progress. Update as you complete lessons, dossiers, and posts — the dashboard reflects whatever is here."
   },
-  "flashcards_due": 24,
-  "dossiers_completed": 3,
-  "catalyst_postmortems_completed": 1,
+  "flashcards_due": 0,
+  "dossiers_completed": 0,
+  "catalyst_postmortems_completed": 0,
   "public_posts_published": 0,
-  "research_streak_days": 12,
+  "research_streak_days": 1,
   "credibility_milestones": [
     {
-      "name": "First full company dossier",
+      "name": "First verified watchlist built (primary sources)",
       "done": true
     },
     {
-      "name": "First trial teardown video scripted",
+      "name": "First catalyst calendar with sourced dates",
       "done": true
     },
     {
-      "name": "First public post published",
+      "name": "First company dossier completed",
       "done": false
     },
     {
-      "name": "10 catalysts tracked with sources",
+      "name": "First public post published",
       "done": false
     },
     {
